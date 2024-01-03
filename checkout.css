@@ -1,0 +1,16 @@
+header.topo {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 10px;
+  border-bottom: 3px solid #ed1c24;
+}
+footer.container-cojiba {
+  background: #21236a;
+  padding: 10px;
+}
+footer p.footer-cojiba {
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}

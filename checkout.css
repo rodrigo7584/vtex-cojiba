@@ -10,7 +10,21 @@ footer.container-cojiba {
 }
 footer p.footer-cojiba {
   margin-bottom: 0;
+  padding: 0;
   color: #fff;
   text-align: center;
   font-size: 12px;
+}
+.SavedCard .card-label {
+  text-wrap: wrap;
+}
+.vtex-pickup-points-modal-3-x-closeButton {
+  background: #ed1c24;
+  color: #fff;
+}
+.vtex-pickup-points-modal-3-x-closeButton:hover {
+  color: #ececec;
+}
+.vtex-pickup-points-modal-3-x-askGeolocationBtn {
+  display: none;
 }

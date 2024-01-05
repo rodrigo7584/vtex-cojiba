@@ -16,7 +16,7 @@ footer p.footer-cojiba {
   font-size: 12px;
 }
 .SavedCard .card-label {
-  text-wrap: wrap;
+  text-wrap: wrap !important;
 }
 .vtex-pickup-points-modal-3-x-closeButton {
   background: #ed1c24;

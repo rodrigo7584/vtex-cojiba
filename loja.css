@@ -1,3 +1,15 @@
 .all-menu > .max-container {
   z-index: 51 !important;
 }
+
+/*card produtos*/
+
+@media (max-width: 576px) {
+  .vitrine .prateleira ul {
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    gap: 10px;
+  }
+  .prateleira .box-item .product-image {
+    margin: 0px;
+  }
+}

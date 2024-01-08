@@ -13,7 +13,31 @@
     margin: 0px;
   }
   .vitrine .prateleira .add-to-list {
-    margin: 15px 0px;
+    margin: 0px;
+    padding: 15px 0px;
+  }
+  .vitrine.resultItemsWrapper {
+    margin-top: 0px;
+  }
+  .resultado-busca-filtro {
+    display: flex;
+    justify-content: end;
+  }
+  .resultado-busca-filtro fieldset.orderBy {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
   }
 }
-/*teste deploy*/
+@media (max-width: 400px) {
+  .vitrine .vitrine .prateleira ul {
+    grid-template-columns: 100% !important;
+  }
+  .out-of-stock,
+  .wrapper-buy-button-asynchronous a,
+  .add-to-cart-shelf {
+    font-size: 9px;
+  }
+}

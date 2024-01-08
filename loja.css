@@ -12,5 +12,8 @@
   .prateleira .box-item .product-image {
     margin: 0px;
   }
+  .vitrine .prateleira .add-to-list {
+    margin: 15px 0px;
+  }
 }
 /*teste deploy*/

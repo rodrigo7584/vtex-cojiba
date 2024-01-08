@@ -6,8 +6,8 @@
 
 @media (max-width: 576px) {
   .vitrine .vitrine .prateleira ul {
-    grid-template-columns: repeat(2, calc(50% - 5px));
-    gap: 10px;
+    grid-template-columns: repeat(2, calc(50% - 5px)) !important;
+    gap: 10px !important;
   }
   .prateleira .box-item .product-image {
     margin: 0px;

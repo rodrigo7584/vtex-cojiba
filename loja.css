@@ -5,7 +5,7 @@
 /*card produtos*/
 
 @media (max-width: 576px) {
-  .vitrine .prateleira ul {
+  .vitrine .vitrine .prateleira ul {
     grid-template-columns: repeat(2, calc(50% - 5px));
     gap: 10px;
   }

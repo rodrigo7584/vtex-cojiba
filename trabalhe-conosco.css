@@ -96,7 +96,11 @@
 }
 @media (max-width: 768px) {
   .container-form-cv-cm {
-    grid-template-columns: 1fr 250px;
+    grid-template-columns: 1fr 180px;
+    gap: 20px;
+  }
+  .icon-form-cv-cm {
+    width: 100%;
   }
 }
 @media (max-width: 576px) {
